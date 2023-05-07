@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+body{
+    background-color:  #fff;
+    color: #1b1b1b;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.info_text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #86898f;
+    margin-bottom: 0;
+}
+.info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.info_img{
+    margin-right: 20px;
+}
+.card{
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.bg-red{
+    background-color: #aaffff;
+}
+.bg-green{
+    background-color: #aaffaa;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.info_img img{
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: #05f;
+}
+a:visited{
+    color: #555;
+}
+.btn{
+    font-family: inherit;
+    padding: 10px 15px;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.list{
+    padding: 0 20px;
+    color: #86898f;
+}
+.list li:not(:last-child){
+    margin-bottom: 10px;
+}
+.btn:hover{
+    opacity: .8;
+}
+
+.table{
+    width: 100%;
+    text-align: left;
+}
+.table td:not(:first-child){
+    color: #86898f;
+}
+.form h3{
+    text-align: center;
+}
+.form_group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form_row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form_row .form_group{
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+}
+.form_row .form_group:last-child{
+    margin-right: 0;
+}
+.form_group input, .form_group textarea{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #86898f;
+    color: #000;
+    outline: none;
+    padding: 10px 0 15px;
+    font-family: inherit;
+}
