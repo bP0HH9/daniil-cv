@@ -116,3 +116,16 @@ a:visited{
     padding: 10px 0 15px;
     font-family: inherit;
 }
+@media(max-width:650px){
+	.info{
+		flex-direction: column;
+		text-align: center;
+	}
+	.form_row{
+		display: block;
+	}
+	.form_row .form_group{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+}
